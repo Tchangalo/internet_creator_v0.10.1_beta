@@ -26,7 +26,7 @@ def call_script(script_dir, script_name, process_type=None, *args):
     env = os.environ.copy()
     env["ANSIBLE_FORCE_COLOR"] = "true"
 
-    # Keywords-list of warnings to be ignored
+    # Keywords-list of ansible warnings to be ignored
     ignore_keywords = ["interpreter", "ansible", "python", "idempotency", "configuration", "device"]
 
     try:
