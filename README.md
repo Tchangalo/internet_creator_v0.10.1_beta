@@ -30,9 +30,9 @@ Der Internet Creator wird folgendermaßen aufgerufen:
 
 source .venv/bin/activate
 
-cd streams
+cd inc
 
-python inc.py
+./inc.sh
 
 Oder ./go.sh unter /home/user/ ausführen - noch einfacher mit alias go='./go.sh' in der .bashrc
 
